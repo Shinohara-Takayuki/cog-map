@@ -32,8 +32,8 @@ const map = new Map({
   labels
   ],
   view: new View({
-    center: [43, 141],
-    zoom: 4
+    center: [43, 142],
+    zoom: 7
   })
 });
 
