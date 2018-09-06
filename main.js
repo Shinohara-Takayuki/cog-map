@@ -94,13 +94,13 @@ onClick('sample-1', function() {
 });
 
 onClick('sample-2', function() {
-  var oamUrl = "./data/so20180906030800.00m6.7.tif"
+  var oamUrl = "./data/sc20180906030800.00m6.7.tif"
   document.getElementById("cog-url").value = oamUrl;
   zoomLoad(oamUrl);
 });
 
 onClick('sample-3', function() {
-  var oamUrl = ".data/sc20180906030800.00m6.7.tif"
+  var oamUrl = ".data/so20180906030800.00m6.7.tif"
   document.getElementById("cog-url").value = oamUrl;
   zoomLoad(oamUrl);
 });
