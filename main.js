@@ -88,19 +88,19 @@ function zoomLoad(name) {
 // })
 
 onClick('sample-1', function() {
-  var planetUrl = "./data/si20180906030800.00m6.7.tif.tif"
+  var planetUrl = "https://gbank.gsj.jp/QuiQuake/QuakeMap/tg/2018/09/si20180906030800.00m6.7.tiff"
   document.getElementById("cog-url").value = planetUrl;
   zoomLoad(planetUrl);
 });
 
 onClick('sample-2', function() {
-  var oamUrl = "./data/sc20180906030800.00m6.7.tif"
+  var oamUrl = "https://gbank.gsj.jp/QuiQuake/QuakeMap/tg/2018/09/sc20180906030800.00m6.7.tiff"
   document.getElementById("cog-url").value = oamUrl;
   zoomLoad(oamUrl);
 });
 
 onClick('sample-3', function() {
-  var oamUrl = ".data/so20180906030800.00m6.7.tif"
+  var oamUrl = "https://gbank.gsj.jp/QuiQuake/QuakeMap/tg/2018/09/so20180906030800.00m6.7.tiff"
   document.getElementById("cog-url").value = oamUrl;
   zoomLoad(oamUrl);
 });
